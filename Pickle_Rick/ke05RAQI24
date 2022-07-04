@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="robots" content="NOINDEX,FOLLOW,NOARCHIVE,NOODP,NOYDIR">
+		<meta property="og:description" content="Recorded with ScreenRec">
+		<meta property="og:title" content="02.07.2022_21.31.21_REC">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://screenrec.com/share/ke05RAQI24">
+		<meta property="og:image" content="https://upww.screenrec.com/images/f_PKJrzR3Lphu0aZUFSloMGHjbOWwdqeXm.jpg">
+		<title>02.07.2022_21.31.21_REC</title>
+		<link rel="shortcut icon" type="image/x-icon" href="https://screenrec.com/favicon.ico">
+		<link rel="stylesheet" href="https://screenrec.com/assets_dist/screenrec/css/screenrec_style.css">
+		<script src="https://screenrec.com/assets/shared/js/jquery.min.js"></script>
+		<script src="https://screenrec.com/assets_dist/screenrec/js/share_scripts.js"></script>
+	</head>
+	<body>
+		<div id="sticky-social">
+			<button data-network="facebook" title="Facebook" class="icon-facebook"></button>
+			<button data-network="twitter" title="Twitter" class="icon-twitter"></button>
+			<button data-network="gplus" title="Google+" class="icon-gplus"></button>
+			<button data-network="linkedin" title="LinkedIn" class="icon-linkedin"></button>
+		</div>
+		<header class="background-top">
+			<div class="header-container">
+				<div class="brand-logo animate" data-animation="fadeInDown">
+					<a href="https://screenrec.com" target="_blank" title="ScreenRec">
+						<span class="footer_new_logo">
+							<span class="circle-gif gif-left"></span>
+							<span class="logo-svg gif-right"></span>
+						</span>
+					</a>
+				</div>
+				<div class="resource-name">
+					<h1>02.07.2022_21.31.21_REC</h1>
+				</div>
+				<div class="social-sharing">
+					<span>Share: </span>
+					<button data-network="facebook" title="Facebook" class="icon-facebook"></button>
+					<button data-network="twitter" title="Twitter" class="icon-twitter"></button>
+					<button data-network="gplus" title="Google+" class="icon-gplus"></button>
+					<button data-network="linkedin" title="LinkedIn" class="icon-linkedin"></button>
+				</div>
+			</div>
+		</header>
+		<section>
+							<div class="holder-loading">
+					<div class="loading"></div>
+				</div>
+									<iframe
+					onload="onLoadContent(this)"
+					class="content sleek-player"
+					id="player_iframe"
+					src="//play.webvideocore.net/html5.html"
+					allowfullscreen="true"
+					allowtransparency="true"
+					frameborder="0"></iframe>
+					<script>
+						var playerIframe = document.getElementById('player_iframe');
+
+						function playerInit() {
+							sendMessage('init', {
+								customUrl: 'https://upww.screenrec.com/videos/f_1UhH9tTqFrDckIdyV7zMwXA3SP4pZlK2.mp4/index.m3u8',
+								customPoster: 'https://upww.screenrec.com/images/f_PKJrzR3Lphu0aZUFSloMGHjbOWwdqeXm.jpg',
+								colorBase: '#250864',
+								colorText: '#ffffff',
+								colorHover: '#7f54f8',
+								threeColorsMode: true,
+								playButton: true,
+								playButtonStyle: 'pulsing'
+							});
+						}
+
+						function onMessage(event) {
+							if(event.source !== playerIframe.contentWindow) {
+								return;
+							}
+
+							var key = event.message ? 'message' : 'data';
+							var details = event[key];
+							var message = details.message;
+
+							if(message === 'init') {
+								playerInit();
+							}
+						}
+
+						function sendMessage(message, data) {
+							playerIframe.contentWindow.postMessage({
+								message: message,
+								data: data
+							}, '*');
+						}
+
+						playerInit();
+
+						window.addEventListener('message', onMessage, false);
+					</script>
+									</section>
+		<footer class="background-bottom">
+			<div class="inner-footer">
+				<p>
+					<span>
+						Reply to this message with ScreenRec - the only
+						<a href="https://screenrec.com/screen-recorder/?utm_source=secure-sharable-link&utm_medium=secure-sharable-link&utm_campaign=secure-sharable-link"
+							target="_blank" title="FreeScreenRecorder">
+							free screen recorder</a>
+						with instant private sharing.
+					</span>
+					<a href="https://screenrec.com/screen-recorder/#download" id="anchor" class="download" title="Download" target="_blank">
+						<svg viewBox="0 0 16 16" class="svg-convert svg-converted" width="26px" height="14px"><path d="M9.096.203l.01 7.34v.332l2.113-2.124 1.678 1.683a5685.453 5685.453 0 01-4.909 4.908 7599.666 7599.666 0 00-4.912-4.911l1.617-1.61 2.123 2.132.088-.034V.203h2.192zM.202 13.544c.101.008.201.021.302.021h14.993c.099 0 .201-.013.301-.021v2.253H.202v-2.253z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+						<span>Download Free</span>
+					</a>
+				</p>
+			</div>
+		</footer>
+		<div class="show">
+			<div class="img-show">
+				<span>X</span>
+				<img src="" alt="">
+			</div>
+		</div>
+	</body>
+</html>
